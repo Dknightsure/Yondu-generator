@@ -1,0 +1,16 @@
+{
+  "name": "Yondu-generator",
+  "version": "0.0.1",
+  "author": "Sure Hu",
+  "dependencies": {
+    "yargs": "^8.0.1"
+  },
+  "main": "./index.js",
+  "bin": {
+    "yondu": "./bin/index.js"
+  },
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3"
+  }
+}
