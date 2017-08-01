@@ -10,8 +10,6 @@ if (process.version.slice(1) < '6.0.0') {
   process.exit(2)
 }
 
-console.log('Yondu!')
-
 require('yargs')
     .usage('Yondu Generator')
     .command(

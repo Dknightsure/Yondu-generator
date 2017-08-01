@@ -13,7 +13,6 @@ const ReplaceReg = new RegExp(REPLACE_SYMBOL, "g")
 const copy = (src, to, callback) => {
     src = path.resolve(__dirname, src)
     to = dir(to)
-    console.log('copy')
 
     fs.readdir(src, (err, paths) => {
         if (err) throw err
